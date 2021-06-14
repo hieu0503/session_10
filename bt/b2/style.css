@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.box,
+.button {
+    margin: 2rem auto;
+    text-align: center;
+    display: block;
+    border-radius: 4px;
+}
+
+.button {
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.box {
+    color: white;
+    font-size: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: #ff7870;
+}
+
+.box p {
+    padding-top: 20px;
+}
